@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import api from '../api/axios'
 import { useNavigate, Link } from 'react-router-dom'
-import Spinner from '../components/spinner'
+import Spinner from "../components/Spinner";
 import { pushToast } from '../components/Toast'
 
 export default function Login(){
