@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --glass: rgba(255,255,255,0.04);
+}
+
+body{
+  background: radial-gradient(circle at 10% 10%, rgba(91,140,255,0.06), transparent), #071028;
+  color: #E6EEF8;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
